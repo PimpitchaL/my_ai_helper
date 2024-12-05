@@ -23,7 +23,7 @@ st.title('Writing tutor')
 st.markdown('Input the writing that you want to improve. \n\
             The AI will give you suggestions on how to improve it.')
 
-user_input = st.text_area("Enter some text to correct:", "Your text here")
+"""user_input = st.text_area("Enter some text to correct:", "Your text here")
 
 # Submit button after text input
 if st.button('Submit'):
@@ -52,4 +52,4 @@ if st.button('Submit'):
                 st.error("The response is not in valid JSON format. Please try again.")
 
         except Exception as e:
-            st.error(f"An error occurred: {e}")
+            st.error(f"An error occurred: {e}")"""
